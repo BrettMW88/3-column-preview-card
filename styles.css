@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    margin: 0;
+    max-height: 100vh;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 125px;
+    line-height: 30px;
+}
+
+#container {
+    min-height: 100vh;
+    padding: 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: solid;
+    border-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca';
+    padding: 15px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    border: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+
+#sedan-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+#sedan-btn:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+
+#suv-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+#suv-btn:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#luxury-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+#luxury-btn:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 1400px) {
+    #container {
+      padding: 100px;
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+    #container {
+        padding: 50px;
+    }
+
+    #border {
+        flex-direction: column;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+
+    #sedan {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #luxury {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+

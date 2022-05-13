@@ -17,13 +17,13 @@ p {
     font-family: 'Lexend Deca';
     font-size: 15px;
     width: 80%;
-    margin-bottom: 125px;
+    margin-bottom: 50px;
     line-height: 30px;
 }
 
 #container {
     min-height: 100vh;
-    padding: 0 300px;
+    padding: 0 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,23 +33,28 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #sedan {
     background-color: hsl(31, 77%, 52%);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px 0px 0px 10px;
+    height: 400px;
 }
 
 #suv {
     background-color: hsl(184, 100%, 22%);
-    padding: 40px;
+    padding: 30px;
+    height: 400px;
+    
 }
 
 #luxury {
     background-color: hsl(179, 100%, 13%);
-    padding: 40px;
+    padding: 30px;
     border-radius: 0px 10px 10px 0px;
+    height: 400px;
 }
 
 button {
